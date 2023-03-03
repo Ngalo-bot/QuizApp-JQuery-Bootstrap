@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EASY LEVEL</title>
+    
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="easy.css">
+        <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">        
+        <script defer src="bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+        <script src="jquery-3.6.0.js"></script>
+        
+    </head>
+    <body id="body">
+
+        <!--ALERT BOX -->
+        <div  id="alert" class="container">
+            <div class="alert alert-danger alert-dismissible" role="alert">
+                Select one answer!!
+                <button id="dismissalert" class="btn-close" aria-label="close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+        <!--------------------------->
+
+        <!--HOME PAGE OR START-->
+        <div id="cont" class="container-lg p-3  border-primary">
+            <div class="row">
+
+                <div class="col">
+                    <div id="titlebar2"><a href="index.html" class="backbtn"><-</a></div>
+                </div>
+
+                <div class="col-8">                       
+                    <div class="card">                        
+                            <div class="card title"><div id="titlebar1"><p>BLUE QUIZ</p></div></div>
+                            <div class="card body">
+                                <div class="card figure" ><img src="blucode – 1.png" height="94em"></img></div>
+                                <div class="card footer"><div id="titlebar1"><p>EASY LEVEL</p></div></div>                                                     
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div id="titlebar2"></div>
+                </div>
+                
+            </div>
+        
+
+            <br>
+            <div class="row">  
+                <div class="col-2">
+                    <div ></div>
+                </div>                                                                                                               
+            </div>
+
+            <br>
+            <div class="row"> 
+                <div class="col-2">
+                    <div ></div>
+                </div>                                                                                   
+                <div class="col-8 ">
+                    <div id="start" class="btn  btn-lg btn-secondary">START</div>
+                </div>               
+            </div>
+
+            <br>
+            <div class="row "> 
+                <div class="col-2">
+                    <div ></div>
+                </div>                                                                                   
+                <div class="col-8 ">
+                    <div id="start" class="btn  btn-lg btn-secondary"><a href="index.html">QUIT</a></div>
+                </div>  
+                <div class="col-2">
+                    <div ></div>
+                </div>             
+            </div>
+
+           
+            <div id="lastrow" class="row">
+
+                <div  class="col">
+                    <div id="titlebar2"></div>
+                </div>
+                                
+            </div>
+            
+        </div>
+        <!--END OF START SCREEN-->
+
+        <!--THIS IS THE QUESTION FRAMEWORK-->
+        <div id="num1" class="container-lg p-3 border-primary">
+
+        <!--TOPBAR FOR QUESTION1-->
+            <div class="row">
+                <div class="col">
+                    <div id="titlebar2"><b id="qtn1back" class="backbtn"><-</b></div>
+                </div>
+
+                <div class="col-8">                       
+                    <div class="card">
+                        
+                            <div class="card title"><div id="titlebar1"><p>BLUE QUIZ</p></div></div>
+                            <div class="card body">
+                                
+                                <div class="card footer"><div id="titlebar1"><p>EASY</p></div></div>                                                     
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div id="titlebar2"></div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!--QUESTION 1 ROW-->
+            <div id="qtnrow" class="row">
+                <div id="qtnnum" class="col-1">1.</div>
+                <br>
+                <div id="qtn" class="col-8">Who are the Maggi</div>
+                <div class="col-2"><div class="points"></div>
+                <div>score</div></div>                
+            </div>
+        
+            <br>
+            <!--answer rows-->
+            <div id="ansrow" class="row">
+                <div class="col">  
+
+                    <!--answer 1-->                                          
+                    <div class="row">
+                        <div class="col-1">
+                            <form>
+                            <div class="form-check"><input id="attemp1" type="checkbox" class="form-check-input"/></div>                            
+                            </form>
+                        </div>
+
+                        <div class="col-11">
+                            <form>
+                            <input id="option1" type="text" value="Kings of Egypt" readonly class="form-control"/>
+                            </form>
+                        </div>
+                    </div>                                            
+                </div>
+            </div>
+
+            <br>
+            
+            <!--answer 2--> 
+            <div id="ansrow" class="row">
+                <div class="col">                                            
+                    <div class="row">
+                        <div class="col-1">
+                            <form>
+                            <div class="form-check"><input id="attemp2" type="checkbox" class="form-check-input"/></div>                            
+                            </form>
+                        </div>
+
+                        <div class="col-11">
+                            <form>
+                            <input id="option2" type="text" value="Wisemen from the east" readonly class="form-control" />
+                            </form>
+                        </div>
+
+                    </div>                                            
+                </div>
+            </div>
+
+            <br>
+            <!--answer 3--> 
+            <div id="ansrow" class="row">
+                <div class="col">                                            
+                    <div class="row">
+
+                        <div class="col-1">
+                            <form>
+                            <div class="form-check"><input id="attemp3" type="checkbox" class="form-check-input"/></div>                            
+                            </form>
+                        </div>
+
+                        <div class="col-11">
+                            <form>
+                            <input id="option3" type="text" value="Job's daughters" readonly class="form-control" />
+                            </form>
+                        </div>
+
+                    </div>                                            
+                </div>
+            </div>
+            <br>
+            <!--answer 4--> 
+            <div id="ansrow" class="row">
+                <div class="col">                                            
+                    <div class="row">
+
+                        <div class="col-1">
+                            <form>
+                            <div class="form-check"><input id="attemp4" type="checkbox" class="form-check-input"/></div>                            
+                            </form>
+                        </div>
+
+                        <div class="col-11">
+                            <form>
+                            <input id="option4" type="text" value="Valleys of Ekron" readonly class="form-control"/>
+                            </form>
+                        </div>
+
+                    </div>                                            
+                </div>
+            </div>
+
+            <br>
+            <div  class="row">
+
+                <div  class="col">
+                   <div id='quit' class="btn"><a href="index.html"><b>QUIT</b></a></div>
+                 </div>
+
+                <div id="next_btn" class="col">
+                    <div id="onebottombtn" class="btn"><b>GO NEXT</b></div>
+                </div>
+                                
+            </div>
+
+
+        </div>
+        
+
+        </div>
+    </body>
+</html>
+
+<script src="header.js"></script>
+<script src="jqback.js"></script>
